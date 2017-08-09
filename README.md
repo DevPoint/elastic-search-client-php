@@ -1,4 +1,4 @@
-Search Client Database implementation for Laravel Eloquent
-===========================================================
+Search Client implementation for Elasticsearch
+================================================
 
 to be written
