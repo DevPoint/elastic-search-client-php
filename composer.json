@@ -1,0 +1,24 @@
+{
+    "name": "devpoint/elastic-search-client-php",
+    "description": "SearchClient implementation for Elasticsearch.",
+    "keywords": ["searchclient", "search", "elasticsearch", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wilfried Reiter",
+            "email": "wilfried.reiter@devpoint.at"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "~5.7"
+    },
+	"autoload": {
+        "psr-4": {
+            "Devpoint\\SearchClient\\Elasticsearch\\": "src/"
+        }
+    }
+}
