@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Search\Elasticsearch;
+namespace Devpoint\SearchClient\Elasticsearch;
 
 use Elasticsearch\Client as Elastic;
-use App\Search\Contracts\SearchClient as SearchClientContract;
-use App\Search\Contracts\SearchClientBuilder as SearchClientBuilderContract;
+use Devpoint\SearchClient\Contracts\SearchClient as SearchClientContract;
+use Devpoint\SearchClient\Contracts\SearchClientBuilder as SearchClientBuilderContract;
 
 class SearchClient implements SearchClientContract {
     

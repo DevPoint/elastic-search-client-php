@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Search\Elasticsearch;
+namespace Devpoint\SearchClient\Elasticsearch;
 
-use App\Search\Contracts\SearchClientResponse as SearchClientResponseContract;
+use Devpoint\SearchClient\Contracts\SearchClientResponse as SearchClientResponseContract;
 
 class SearchClientResponse implements SearchClientResponseContract {
 
