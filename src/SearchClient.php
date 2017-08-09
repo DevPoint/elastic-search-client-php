@@ -33,6 +33,8 @@ class SearchClient implements SearchClientContract {
     /**
      * Update values on the index.
      * 
+     * @since version 1.1.0
+     *
      * @param  string  $index
      * @param  array   $valuesWithMeta
      * @return void
@@ -44,6 +46,8 @@ class SearchClient implements SearchClientContract {
 
     /**
      * Delete values from the index.
+     *
+     * @since version 1.1.0
      *
      * @param  string  $index
      * @param  array   $ids
