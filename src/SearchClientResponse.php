@@ -132,8 +132,13 @@ class SearchClientResponse implements SearchClientResponseContract {
      */
     public function ids()
     {
-        return array_map(
-            function($hit) { return $hit['_id']; }, 
-            $this->hits['hits']);
+        $ids = [];
+        if ($this->count() > 0) 
+        {
+            $ids = array_map(
+                function($hit) { return $hit['_id']; }, 
+                $this->hits['hits']);
+        }
+        return $ids;
     }
 }
